@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DC216915B9D5FB000AC4C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216815B9D5FB000AC4C8 /* UIKit.framework */; };
+		95DC216B15B9D5FB000AC4C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216A15B9D5FB000AC4C8 /* Foundation.framework */; };
+		95DC216D15B9D5FB000AC4C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216C15B9D5FB000AC4C8 /* CoreGraphics.framework */; };
+		95DC216F15B9D5FB000AC4C8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216E15B9D5FB000AC4C8 /* GLKit.framework */; };
+		95DC217115B9D5FB000AC4C8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC217015B9D5FB000AC4C8 /* OpenGLES.framework */; };
+		95DC217715B9D5FB000AC4C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95DC217515B9D5FB000AC4C8 /* InfoPlist.strings */; };
+		95DC217915B9D5FB000AC4C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DC217815B9D5FB000AC4C8 /* main.m */; };
+		95DC217D15B9D5FB000AC4C8 /* BBJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DC217C15B9D5FB000AC4C8 /* BBJAppDelegate.m */; };
+		95DC218015B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DC217E15B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard */; };
+		95DC218315B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DC218115B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard */; };
+		95DC218515B9D5FB000AC4C8 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 95DC218415B9D5FB000AC4C8 /* Shader.fsh */; };
+		95DC218715B9D5FB000AC4C8 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 95DC218615B9D5FB000AC4C8 /* Shader.vsh */; };
+		95DC218A15B9D5FB000AC4C8 /* BBJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DC218915B9D5FB000AC4C8 /* BBJViewController.m */; };
+		95DC219215B9D5FB000AC4C8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC219115B9D5FB000AC4C8 /* SenTestingKit.framework */; };
+		95DC219315B9D5FB000AC4C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216815B9D5FB000AC4C8 /* UIKit.framework */; };
+		95DC219415B9D5FB000AC4C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216A15B9D5FB000AC4C8 /* Foundation.framework */; };
+		95DC219C15B9D5FB000AC4C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95DC219A15B9D5FB000AC4C8 /* InfoPlist.strings */; };
+		95DC219F15B9D5FB000AC4C8 /* ChesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DC219E15B9D5FB000AC4C8 /* ChesterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DC219515B9D5FB000AC4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DC215B15B9D5FB000AC4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DC216315B9D5FB000AC4C8;
+			remoteInfo = Chester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95DC216415B9D5FB000AC4C8 /* Chester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DC216815B9D5FB000AC4C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95DC216A15B9D5FB000AC4C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95DC216C15B9D5FB000AC4C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95DC216E15B9D5FB000AC4C8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		95DC217015B9D5FB000AC4C8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		95DC217415B9D5FB000AC4C8 /* Chester-Info.plist */ = {isa = PBXFileReference; path = "Chester-Info.plist"; sourceTree = "<group>"; };
+		95DC217615B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95DC217815B9D5FB000AC4C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95DC217A15B9D5FB000AC4C8 /* Chester-Prefix.pch */ = {isa = PBXFileReference; path = "Chester-Prefix.pch"; sourceTree = "<group>"; };
+		95DC217B15B9D5FB000AC4C8 /* BBJAppDelegate.h */ = {isa = PBXFileReference; path = BBJAppDelegate.h; sourceTree = "<group>"; };
+		95DC217C15B9D5FB000AC4C8 /* BBJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBJAppDelegate.m; sourceTree = "<group>"; };
+		95DC217F15B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		95DC218215B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		95DC218415B9D5FB000AC4C8 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		95DC218615B9D5FB000AC4C8 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		95DC218815B9D5FB000AC4C8 /* BBJViewController.h */ = {isa = PBXFileReference; path = BBJViewController.h; sourceTree = "<group>"; };
+		95DC218915B9D5FB000AC4C8 /* BBJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBJViewController.m; sourceTree = "<group>"; };
+		95DC219015B9D5FB000AC4C8 /* ChesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DC219115B9D5FB000AC4C8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		95DC219915B9D5FB000AC4C8 /* ChesterTests-Info.plist */ = {isa = PBXFileReference; path = "ChesterTests-Info.plist"; sourceTree = "<group>"; };
+		95DC219B15B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95DC219D15B9D5FB000AC4C8 /* ChesterTests.h */ = {isa = PBXFileReference; path = ChesterTests.h; sourceTree = "<group>"; };
+		95DC219E15B9D5FB000AC4C8 /* ChesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChesterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DC216115B9D5FB000AC4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC216915B9D5FB000AC4C8 /* UIKit.framework in Frameworks */,
+				95DC216B15B9D5FB000AC4C8 /* Foundation.framework in Frameworks */,
+				95DC216D15B9D5FB000AC4C8 /* CoreGraphics.framework in Frameworks */,
+				95DC216F15B9D5FB000AC4C8 /* GLKit.framework in Frameworks */,
+				95DC217115B9D5FB000AC4C8 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC218C15B9D5FB000AC4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC219215B9D5FB000AC4C8 /* SenTestingKit.framework in Frameworks */,
+				95DC219315B9D5FB000AC4C8 /* UIKit.framework in Frameworks */,
+				95DC219415B9D5FB000AC4C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DC215915B9D5FB000AC4C8 = {
+			isa = PBXGroup;
+			children = (
+				95DC217215B9D5FB000AC4C8 /* Chester */,
+				95DC219715B9D5FB000AC4C8 /* ChesterTests */,
+				95DC216715B9D5FB000AC4C8 /* Frameworks */,
+				95DC216515B9D5FB000AC4C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DC216515B9D5FB000AC4C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DC216415B9D5FB000AC4C8 /* Chester.app */,
+				95DC219015B9D5FB000AC4C8 /* ChesterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DC216715B9D5FB000AC4C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95DC216815B9D5FB000AC4C8 /* UIKit.framework */,
+				95DC216A15B9D5FB000AC4C8 /* Foundation.framework */,
+				95DC216C15B9D5FB000AC4C8 /* CoreGraphics.framework */,
+				95DC216E15B9D5FB000AC4C8 /* GLKit.framework */,
+				95DC217015B9D5FB000AC4C8 /* OpenGLES.framework */,
+				95DC219115B9D5FB000AC4C8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95DC217215B9D5FB000AC4C8 /* Chester */ = {
+			isa = PBXGroup;
+			children = (
+				95DC217B15B9D5FB000AC4C8 /* BBJAppDelegate.h */,
+				95DC217C15B9D5FB000AC4C8 /* BBJAppDelegate.m */,
+				95DC217E15B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard */,
+				95DC218115B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard */,
+				95DC218415B9D5FB000AC4C8 /* Shader.fsh */,
+				95DC218615B9D5FB000AC4C8 /* Shader.vsh */,
+				95DC218815B9D5FB000AC4C8 /* BBJViewController.h */,
+				95DC218915B9D5FB000AC4C8 /* BBJViewController.m */,
+				95DC217315B9D5FB000AC4C8 /* Supporting Files */,
+			);
+			path = Chester;
+			sourceTree = "<group>";
+		};
+		95DC217315B9D5FB000AC4C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DC217415B9D5FB000AC4C8 /* Chester-Info.plist */,
+				95DC217515B9D5FB000AC4C8 /* InfoPlist.strings */,
+				95DC217815B9D5FB000AC4C8 /* main.m */,
+				95DC217A15B9D5FB000AC4C8 /* Chester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95DC219715B9D5FB000AC4C8 /* ChesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				95DC219D15B9D5FB000AC4C8 /* ChesterTests.h */,
+				95DC219E15B9D5FB000AC4C8 /* ChesterTests.m */,
+				95DC219815B9D5FB000AC4C8 /* Supporting Files */,
+			);
+			path = ChesterTests;
+			sourceTree = "<group>";
+		};
+		95DC219815B9D5FB000AC4C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95DC219915B9D5FB000AC4C8 /* ChesterTests-Info.plist */,
+				95DC219A15B9D5FB000AC4C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DC216315B9D5FB000AC4C8 /* Chester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC21A215B9D5FB000AC4C8 /* Build configuration list for PBXNativeTarget "Chester" */;
+			buildPhases = (
+				95DC216015B9D5FB000AC4C8 /* Sources */,
+				95DC216115B9D5FB000AC4C8 /* Frameworks */,
+				95DC216215B9D5FB000AC4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chester;
+			productName = Chester;
+			productReference = 95DC216415B9D5FB000AC4C8 /* Chester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95DC218F15B9D5FB000AC4C8 /* ChesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC21A515B9D5FB000AC4C8 /* Build configuration list for PBXNativeTarget "ChesterTests" */;
+			buildPhases = (
+				95DC218B15B9D5FB000AC4C8 /* Sources */,
+				95DC218C15B9D5FB000AC4C8 /* Frameworks */,
+				95DC218D15B9D5FB000AC4C8 /* Resources */,
+				95DC218E15B9D5FB000AC4C8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DC219615B9D5FB000AC4C8 /* PBXTargetDependency */,
+			);
+			name = ChesterTests;
+			productName = ChesterTests;
+			productReference = 95DC219015B9D5FB000AC4C8 /* ChesterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DC215B15B9D5FB000AC4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 95DC215E15B9D5FB000AC4C8 /* Build configuration list for PBXProject "Chester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95DC215915B9D5FB000AC4C8;
+			productRefGroup = 95DC216515B9D5FB000AC4C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DC216315B9D5FB000AC4C8 /* Chester */,
+				95DC218F15B9D5FB000AC4C8 /* ChesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DC216215B9D5FB000AC4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC217715B9D5FB000AC4C8 /* InfoPlist.strings in Resources */,
+				95DC218015B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				95DC218315B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard in Resources */,
+				95DC218515B9D5FB000AC4C8 /* Shader.fsh in Resources */,
+				95DC218715B9D5FB000AC4C8 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC218D15B9D5FB000AC4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC219C15B9D5FB000AC4C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95DC218E15B9D5FB000AC4C8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DC216015B9D5FB000AC4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC217915B9D5FB000AC4C8 /* main.m in Sources */,
+				95DC217D15B9D5FB000AC4C8 /* BBJAppDelegate.m in Sources */,
+				95DC218A15B9D5FB000AC4C8 /* BBJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC218B15B9D5FB000AC4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC219F15B9D5FB000AC4C8 /* ChesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95DC219615B9D5FB000AC4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DC216315B9D5FB000AC4C8 /* Chester */;
+			targetProxy = 95DC219515B9D5FB000AC4C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95DC217515B9D5FB000AC4C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC217615B9D5FB000AC4C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95DC217E15B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC217F15B9D5FB000AC4C8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		95DC218115B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC218215B9D5FB000AC4C8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		95DC219A15B9D5FB000AC4C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC219B15B9D5FB000AC4C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DC21A015B9D5FB000AC4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95DC21A115B9D5FB000AC4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DC21A315B9D5FB000AC4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chester/Chester-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Chester/Chester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95DC21A415B9D5FB000AC4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chester/Chester-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Chester/Chester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95DC21A615B9D5FB000AC4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chester.app/Chester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chester/Chester-Prefix.pch";
+				INFOPLIST_FILE = "ChesterTests/ChesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		95DC21A715B9D5FB000AC4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chester.app/Chester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chester/Chester-Prefix.pch";
+				INFOPLIST_FILE = "ChesterTests/ChesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DC215E15B9D5FB000AC4C8 /* Build configuration list for PBXProject "Chester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC21A015B9D5FB000AC4C8 /* Debug */,
+				95DC21A115B9D5FB000AC4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DC21A215B9D5FB000AC4C8 /* Build configuration list for PBXNativeTarget "Chester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC21A315B9D5FB000AC4C8 /* Debug */,
+				95DC21A415B9D5FB000AC4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95DC21A515B9D5FB000AC4C8 /* Build configuration list for PBXNativeTarget "ChesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC21A615B9D5FB000AC4C8 /* Debug */,
+				95DC21A715B9D5FB000AC4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95DC215B15B9D5FB000AC4C8 /* Project object */;
+}
