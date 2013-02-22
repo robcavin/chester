@@ -25,6 +25,25 @@
 		95DC219415B9D5FB000AC4C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DC216A15B9D5FB000AC4C8 /* Foundation.framework */; };
 		95DC219C15B9D5FB000AC4C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95DC219A15B9D5FB000AC4C8 /* InfoPlist.strings */; };
 		95DC219F15B9D5FB000AC4C8 /* ChesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DC219E15B9D5FB000AC4C8 /* ChesterTests.m */; };
+		95DC21B015B9E200000AC4C8 /* Shader2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 95DC21AC15B9E09B000AC4C8 /* Shader2.fsh */; };
+		95DC21B115B9E200000AC4C8 /* Shader2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 95DC21AD15B9E09B000AC4C8 /* Shader2.vsh */; };
+		95DC21B315B9EDDD000AC4C8 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95DC21B215B9EDDD000AC4C8 /* test.jpg */; };
+		95DC21B515B9EF4D000AC4C8 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DC21B415B9EF4D000AC4C8 /* landscape.png */; };
+		95E1AA5215D72DB30083EAD9 /* chester-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA5115D72DB30083EAD9 /* chester-texture.png */; };
+		95E1AA5615D75A9B0083EAD9 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA5415D75A9B0083EAD9 /* right.png */; };
+		95E1AA5715D75A9B0083EAD9 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA5515D75A9B0083EAD9 /* left.png */; };
+		95E1AA5F15D75CB50083EAD9 /* left-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA5E15D75CB50083EAD9 /* left-small@2x.png */; };
+		95E1AA6115D75CBA0083EAD9 /* right-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6015D75CBA0083EAD9 /* right-small@2x.png */; };
+		95E1AA6315D75CD50083EAD9 /* right-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6215D75CD50083EAD9 /* right-small.png */; };
+		95E1AA6515D75CDB0083EAD9 /* left-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6415D75CDB0083EAD9 /* left-small.png */; };
+		95E1AA6715D782260083EAD9 /* landscape_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6615D782260083EAD9 /* landscape_1024.png */; };
+		95E1AA6B15D7880A0083EAD9 /* landscape2.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6A15D7880A0083EAD9 /* landscape2.png */; };
+		95E1AA6D15D862D80083EAD9 /* landscape3.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6C15D862D80083EAD9 /* landscape3.png */; };
+		95E1AA6F15D8674B0083EAD9 /* landscape4.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA6E15D8674B0083EAD9 /* landscape4.png */; };
+		95E1AA7115D86D720083EAD9 /* pastorale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA7015D86D710083EAD9 /* pastorale.mp3 */; };
+		95E1AA7315D86E200083EAD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E1AA7215D86E200083EAD9 /* AVFoundation.framework */; };
+		95E1AA7515D873DF0083EAD9 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95E1AA7415D873DF0083EAD9 /* jump.wav */; };
+		95F22DA915D5BDC5009B2F09 /* chester-animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F22DA815D5BDC5009B2F09 /* chester-animation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,24 +63,43 @@
 		95DC216C15B9D5FB000AC4C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		95DC216E15B9D5FB000AC4C8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		95DC217015B9D5FB000AC4C8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		95DC217415B9D5FB000AC4C8 /* Chester-Info.plist */ = {isa = PBXFileReference; path = "Chester-Info.plist"; sourceTree = "<group>"; };
+		95DC217415B9D5FB000AC4C8 /* Chester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chester-Info.plist"; sourceTree = "<group>"; };
 		95DC217615B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95DC217815B9D5FB000AC4C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		95DC217A15B9D5FB000AC4C8 /* Chester-Prefix.pch */ = {isa = PBXFileReference; path = "Chester-Prefix.pch"; sourceTree = "<group>"; };
-		95DC217B15B9D5FB000AC4C8 /* BBJAppDelegate.h */ = {isa = PBXFileReference; path = BBJAppDelegate.h; sourceTree = "<group>"; };
+		95DC217A15B9D5FB000AC4C8 /* Chester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chester-Prefix.pch"; sourceTree = "<group>"; };
+		95DC217B15B9D5FB000AC4C8 /* BBJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBJAppDelegate.h; sourceTree = "<group>"; };
 		95DC217C15B9D5FB000AC4C8 /* BBJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBJAppDelegate.m; sourceTree = "<group>"; };
 		95DC217F15B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		95DC218215B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		95DC218415B9D5FB000AC4C8 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		95DC218615B9D5FB000AC4C8 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		95DC218815B9D5FB000AC4C8 /* BBJViewController.h */ = {isa = PBXFileReference; path = BBJViewController.h; sourceTree = "<group>"; };
+		95DC218815B9D5FB000AC4C8 /* BBJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBJViewController.h; sourceTree = "<group>"; };
 		95DC218915B9D5FB000AC4C8 /* BBJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBJViewController.m; sourceTree = "<group>"; };
 		95DC219015B9D5FB000AC4C8 /* ChesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DC219115B9D5FB000AC4C8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		95DC219915B9D5FB000AC4C8 /* ChesterTests-Info.plist */ = {isa = PBXFileReference; path = "ChesterTests-Info.plist"; sourceTree = "<group>"; };
+		95DC219915B9D5FB000AC4C8 /* ChesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChesterTests-Info.plist"; sourceTree = "<group>"; };
 		95DC219B15B9D5FB000AC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		95DC219D15B9D5FB000AC4C8 /* ChesterTests.h */ = {isa = PBXFileReference; path = ChesterTests.h; sourceTree = "<group>"; };
+		95DC219D15B9D5FB000AC4C8 /* ChesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChesterTests.h; sourceTree = "<group>"; };
 		95DC219E15B9D5FB000AC4C8 /* ChesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChesterTests.m; sourceTree = "<group>"; };
+		95DC21AC15B9E09B000AC4C8 /* Shader2.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader2.fsh; path = Shaders/Shader2.fsh; sourceTree = "<group>"; };
+		95DC21AD15B9E09B000AC4C8 /* Shader2.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader2.vsh; path = Shaders/Shader2.vsh; sourceTree = "<group>"; };
+		95DC21B215B9EDDD000AC4C8 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		95DC21B415B9EF4D000AC4C8 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
+		95E1AA5115D72DB30083EAD9 /* chester-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chester-texture.png"; sourceTree = "<group>"; };
+		95E1AA5415D75A9B0083EAD9 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		95E1AA5515D75A9B0083EAD9 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		95E1AA5E15D75CB50083EAD9 /* left-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-small@2x.png"; sourceTree = "<group>"; };
+		95E1AA6015D75CBA0083EAD9 /* right-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-small@2x.png"; sourceTree = "<group>"; };
+		95E1AA6215D75CD50083EAD9 /* right-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-small.png"; sourceTree = "<group>"; };
+		95E1AA6415D75CDB0083EAD9 /* left-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-small.png"; sourceTree = "<group>"; };
+		95E1AA6615D782260083EAD9 /* landscape_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape_1024.png; sourceTree = "<group>"; };
+		95E1AA6A15D7880A0083EAD9 /* landscape2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape2.png; sourceTree = "<group>"; };
+		95E1AA6C15D862D80083EAD9 /* landscape3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape3.png; sourceTree = "<group>"; };
+		95E1AA6E15D8674B0083EAD9 /* landscape4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape4.png; sourceTree = "<group>"; };
+		95E1AA7015D86D710083EAD9 /* pastorale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pastorale.mp3; sourceTree = "<group>"; };
+		95E1AA7215D86E200083EAD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		95E1AA7415D873DF0083EAD9 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		95F22DA815D5BDC5009B2F09 /* chester-animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chester-animation.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E1AA7315D86E200083EAD9 /* AVFoundation.framework in Frameworks */,
 				95DC216915B9D5FB000AC4C8 /* UIKit.framework in Frameworks */,
 				95DC216B15B9D5FB000AC4C8 /* Foundation.framework in Frameworks */,
 				95DC216D15B9D5FB000AC4C8 /* CoreGraphics.framework in Frameworks */,
@@ -93,6 +132,7 @@
 		95DC215915B9D5FB000AC4C8 = {
 			isa = PBXGroup;
 			children = (
+				95E1AA7215D86E200083EAD9 /* AVFoundation.framework */,
 				95DC217215B9D5FB000AC4C8 /* Chester */,
 				95DC219715B9D5FB000AC4C8 /* ChesterTests */,
 				95DC216715B9D5FB000AC4C8 /* Frameworks */,
@@ -130,9 +170,27 @@
 				95DC217E15B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard */,
 				95DC218115B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard */,
 				95DC218415B9D5FB000AC4C8 /* Shader.fsh */,
+				95DC21AC15B9E09B000AC4C8 /* Shader2.fsh */,
+				95DC21AD15B9E09B000AC4C8 /* Shader2.vsh */,
 				95DC218615B9D5FB000AC4C8 /* Shader.vsh */,
 				95DC218815B9D5FB000AC4C8 /* BBJViewController.h */,
 				95DC218915B9D5FB000AC4C8 /* BBJViewController.m */,
+				95DC21B215B9EDDD000AC4C8 /* test.jpg */,
+				95F22DA815D5BDC5009B2F09 /* chester-animation.png */,
+				95E1AA5115D72DB30083EAD9 /* chester-texture.png */,
+				95DC21B415B9EF4D000AC4C8 /* landscape.png */,
+				95E1AA5415D75A9B0083EAD9 /* right.png */,
+				95E1AA5515D75A9B0083EAD9 /* left.png */,
+				95E1AA5E15D75CB50083EAD9 /* left-small@2x.png */,
+				95E1AA6015D75CBA0083EAD9 /* right-small@2x.png */,
+				95E1AA6215D75CD50083EAD9 /* right-small.png */,
+				95E1AA6415D75CDB0083EAD9 /* left-small.png */,
+				95E1AA6615D782260083EAD9 /* landscape_1024.png */,
+				95E1AA6A15D7880A0083EAD9 /* landscape2.png */,
+				95E1AA6C15D862D80083EAD9 /* landscape3.png */,
+				95E1AA6E15D8674B0083EAD9 /* landscape4.png */,
+				95E1AA7015D86D710083EAD9 /* pastorale.mp3 */,
+				95E1AA7415D873DF0083EAD9 /* jump.wav */,
 				95DC217315B9D5FB000AC4C8 /* Supporting Files */,
 			);
 			path = Chester;
@@ -239,11 +297,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DC21B015B9E200000AC4C8 /* Shader2.fsh in Resources */,
+				95DC21B115B9E200000AC4C8 /* Shader2.vsh in Resources */,
 				95DC217715B9D5FB000AC4C8 /* InfoPlist.strings in Resources */,
 				95DC218015B9D5FB000AC4C8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				95DC218315B9D5FB000AC4C8 /* MainStoryboard_iPad.storyboard in Resources */,
 				95DC218515B9D5FB000AC4C8 /* Shader.fsh in Resources */,
 				95DC218715B9D5FB000AC4C8 /* Shader.vsh in Resources */,
+				95DC21B315B9EDDD000AC4C8 /* test.jpg in Resources */,
+				95DC21B515B9EF4D000AC4C8 /* landscape.png in Resources */,
+				95F22DA915D5BDC5009B2F09 /* chester-animation.png in Resources */,
+				95E1AA5215D72DB30083EAD9 /* chester-texture.png in Resources */,
+				95E1AA5615D75A9B0083EAD9 /* right.png in Resources */,
+				95E1AA5715D75A9B0083EAD9 /* left.png in Resources */,
+				95E1AA5F15D75CB50083EAD9 /* left-small@2x.png in Resources */,
+				95E1AA6115D75CBA0083EAD9 /* right-small@2x.png in Resources */,
+				95E1AA6315D75CD50083EAD9 /* right-small.png in Resources */,
+				95E1AA6515D75CDB0083EAD9 /* left-small.png in Resources */,
+				95E1AA6715D782260083EAD9 /* landscape_1024.png in Resources */,
+				95E1AA6B15D7880A0083EAD9 /* landscape2.png in Resources */,
+				95E1AA6D15D862D80083EAD9 /* landscape3.png in Resources */,
+				95E1AA6F15D8674B0083EAD9 /* landscape4.png in Resources */,
+				95E1AA7115D86D720083EAD9 /* pastorale.mp3 in Resources */,
+				95E1AA7515D873DF0083EAD9 /* jump.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +538,7 @@
 				95DC21A415B9D5FB000AC4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95DC21A515B9D5FB000AC4C8 /* Build configuration list for PBXNativeTarget "ChesterTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +547,7 @@
 				95DC21A715B9D5FB000AC4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
